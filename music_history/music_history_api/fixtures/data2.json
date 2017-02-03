@@ -1,0 +1,51 @@
+[{
+  "model": "music_history_api.artist",
+  "pk": 1,
+  "fields": {
+    "artist_name": "Miles Davis",
+    "year_established": "1944-01-01"
+  }
+}, {
+  "model": "music_history_api.genre",
+  "pk": 1,
+  "fields": {
+    "genre_label": "Jazz",
+    "artist": 1
+  }
+}, {
+  "model": "music_history_api.album",
+  "pk": 1,
+  "fields": {
+    "album_title": "Bitches Brew",
+    "release_date": "1956-01-01",
+    "album_duration": 2323,
+    "artist": 1
+  }
+}, {
+  "model": "music_history_api.song",
+  "pk": 1,
+  "fields": {
+    "song_title": "Bitchin'",
+    "song_duration": 400,
+    "artist_name": 1,
+    "album": 1,
+    "genre": 1
+  }
+},{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$MvrDNCCs9L1J$s0kxjTtfGSTW0dE3+zMaOiy71oYH5Baui77CvkBp1KA=",
+    "last_login": "2017-02-03T20:23:54.859Z",
+    "is_superuser": true,
+    "username": "dani",
+    "first_name": "",
+    "last_name": "",
+    "email": "dani@dani.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-02-03T20:23:38.698Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}]
