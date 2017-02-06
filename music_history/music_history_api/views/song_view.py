@@ -7,5 +7,5 @@ class SongViewSet(viewsets.ModelViewSet):
     """
     This creates the Song view
     """
-    queryset = models.Song.objects.all()
-    serializer_class = serializers.SongSerializer
+    queryset = song_model.Song.objects.all()
+    serializer_class = song_serializer.SongSerializer

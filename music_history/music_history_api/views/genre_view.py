@@ -7,5 +7,5 @@ class GenreViewSet(viewsets.ModelViewSet):
     """
     This creates the Genre view
     """
-    queryset = models.Genre.objects.all()
-    serializer_class = serializers.GenreSerializer
+    queryset = genre_model.Genre.objects.all()
+    serializer_class = genre_serializer.GenreSerializer

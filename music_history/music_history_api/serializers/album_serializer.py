@@ -7,5 +7,5 @@ class AlbumSerializer(serializers.HyperlinkedModelSerializer):
     This is the hyperlinked serailizer for the Album Model
     """
     class Meta:
-        model = models.Album
+        model = album_model.Album
         fields = '__all__'

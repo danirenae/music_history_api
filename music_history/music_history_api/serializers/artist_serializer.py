@@ -7,5 +7,5 @@ class ArtistSerializer(serializers.HyperlinkedModelSerializer):
     This is the hyperlinked serailizer for the Artist Model
     """
     class Meta:
-        model = models.Artist
+        model = artist_model.Artist
         fields = '__all__'

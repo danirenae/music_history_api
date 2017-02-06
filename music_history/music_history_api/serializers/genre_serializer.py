@@ -7,5 +7,5 @@ class GenreSerializer(serializers.HyperlinkedModelSerializer):
     This is the hyperlinked serailizer for the Genre Model
     """
     class Meta:
-        model = models.Genre
+        model = genre_model.Genre
         fields = '__all__'

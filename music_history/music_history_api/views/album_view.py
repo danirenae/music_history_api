@@ -7,5 +7,5 @@ class AlbumViewSet(viewsets.ModelViewSet):
     """
     This creates the Album view
     """
-    queryset = models.Album.objects.all()
-    serializer_class = serializers.AlbumSerializer
+    queryset = album_model.Album.objects.all()
+    serializer_class = album_serializer.AlbumSerializer

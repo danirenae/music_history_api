@@ -7,5 +7,5 @@ class SongSerializer(serializers.HyperlinkedModelSerializer):
     This is the hyperlinked serailizer for the Song Model
     """
     class Meta:
-        model = models.Song
+        model = song_model.Song
         fields = '__all__'

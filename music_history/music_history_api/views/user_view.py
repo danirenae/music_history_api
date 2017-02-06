@@ -7,5 +7,5 @@ class UserViewSet(viewsets.ModelViewSet):
     """
     This creates the User view
     """
-    queryset = models.User.objects.all()
-    serializer_class = serializers.UserSerializer
+    queryset = User.objects.all()
+    serializer_class = user_serializer.UserSerializer

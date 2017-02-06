@@ -7,5 +7,5 @@ class ArtistViewSet(viewsets.ModelViewSet):
     """
     This creates the Artist view
     """
-    queryset = models.Artist.objects.all()
-    serializer_class = serializers.ArtistSerializer
+    queryset = artist_model.Artist.objects.all()
+    serializer_class = artist_serializer.ArtistSerializer
